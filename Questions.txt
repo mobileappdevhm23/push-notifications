@@ -5,4 +5,16 @@ C. allowSound
 D. allowNotification
 ANSWER: A,B,C
 
+Welcher der folgenden Trends ist ein zukünftiger Trend im Bereich Push-Benachrichtigungen?
+A. Abnehmende Personalisierung in Benachrichtigungen
+B. Der Übergang zu Benachrichtigungen erfordert das Öffnen der App, um interagieren zu können
+C. Zunehmender Einsatz von KI und maschinellem Lernen zur Optimierung von Benachrichtigungen
+D. Lockerung der Datenschutzbestimmungen bezüglich der Nutzung von Benachrichtigungen
+ANSWER: C
 
+Was ist der Hauptunterschied zwischen lokalen und Remote-Push-Benachrichtigungen?
+A. Für Remote-Benachrichtigungen ist eine Internetverbindung erforderlich, für lokale Benachrichtigungen ist dies jedoch nicht erforderlich.
+B. Lokale Benachrichtigungen erfordern, dass die App geöffnet ist, damit sie übermittelt werden können, während dies für Remote-Benachrichtigungen nicht der Fall ist.
+C. Remote-Benachrichtigungen stammen vom Gerät des Benutzers, während lokale Benachrichtigungen von einem Remote-Server stammen.
+D. Lokale Benachrichtigungen erfordern die Auslösung einer Benutzerinteraktion, während dies bei Remote-Benachrichtigungen nicht der Fall ist.
+ANSWER: A
