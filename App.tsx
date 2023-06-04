@@ -15,7 +15,6 @@ async function schedulePushNotification() {
         content: {
             title: "Theater App",
             body: 'Wolltest du nicht wieder ins Theater gehen?',
-            data: { data: 'goes here' },
         },
         trigger: { seconds: 2 },
     });
@@ -25,17 +24,19 @@ export default function App() {
     useEffect(() => {
         if (Platform.OS === 'android') {
             Notifications.setNotificationChannelAsync('default', {
-                name: 'default',
-                importance: Notifications.AndroidImportance.MAX,
-                vibrationPattern: [0, 250, 250, 250],
-                lightColor: '#FF231F7C',
+                name: 'default', // sets the name of the channel
+                importance: Notifications.AndroidImportance.MAX, // sets the importance level of the notification
+                vibrationPattern: [0, 250, 250, 250], // vibration pattern for the notification
+                lightColor: '#FF231F7C', // color of the notification light
             });
         }
     }, []);
 
     useEffect(() => {
         async function requestPermissions() {
-            const { status } = await Notifications.requestPermissionsAsync();
+            const { status } = await Notifications.requestPermissionsAsync(
+                // requests permission to send notifications
+            );
             if (status !== 'granted') {
                 alert('No notification permissions!');
                 return;

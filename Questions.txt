@@ -1,0 +1,8 @@
+Welche Berechtigungen sind in iOS Push-Benachrichtigungen in Expo enthalten?
+A. allowAlert
+B. allowBadge
+C. allowSound
+D. allowNotification
+ANSWER: A,B,C
+
+
